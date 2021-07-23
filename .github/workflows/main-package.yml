@@ -1,8 +1,8 @@
-name: Java CI
+name: Java CI2
 
 on:
   schedule:
-    - cron:  '*/1 * * * *'
+    - cron:  '* * * * *'
 
 jobs:
   build:
