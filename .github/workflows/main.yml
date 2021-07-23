@@ -14,4 +14,4 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - run: mvn package
-      - run: java -jar target\Defo-1.0-SNAPSHOT.jar
+      - run: java -jar target/Defo-1.0-SNAPSHOT.jar
