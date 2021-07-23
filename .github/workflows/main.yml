@@ -13,5 +13,5 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - run: mvn --batch-mode --update-snapshots verify
+      - run: mvn package
       - run: java -jar target\Defo-1.0-SNAPSHOT.jar
