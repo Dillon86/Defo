@@ -19,6 +19,5 @@ jobs:
            path: ~/.m2
            key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
            restore-keys: ${{ runner.os }}-m2
-      - name: Package Project
       - run: mvn package
       - run: java -jar target/Defo-1.0-SNAPSHOT.jar
